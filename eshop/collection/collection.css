@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  header {
+    background-color: #f5f5f5;
+    padding: 20px; 
+  }
+
+  nav{
+    justify-content: space-between;
+  }
+    
+  .navbar-text{
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+        color: black
+      }
+    
+    .navbar-text:hover{
+        color: black;
+    }
+
+    .navbar-nav{
+        padding-right: 20px;
+    }
+
+    .navbar-nav a{
+        padding-right: 20px;
+    }
+
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5f5;
+        padding: 20px;
+      }
+  
+      .image-container img {
+        margin: 10px;
+        position: relative;
+        width: 100%
+      }
+
+    .btn{
+        position: absolute;
+        margin-top: 300px;
+        font-size: 20px;
+        color: white;
+        background-color: #6d071a;
+        border: 2px solid #6d071a;;
+    }
+
+    .btn:hover{
+        color: white;
+    }
+
+    footer {
+        background-color: #614b3a;
+        color: #fff;
+      }
+    
+    span{
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+        color: black;
+      }
+      .footer-content{
+        height: 150px;
+        padding-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 18px;
+        }
+    
+      h3{
+        text-decoration: underline;
+      }
+    
+      .footer-social li{
+        list-style-type: circle;
+      }
+    
+      .footer-social ul li a i {
+        color: #fff;
+        font-size: 25px;
+      }
+    
+      .footer-propos li a{
+        text-decoration: none;
+        color: white;
+      }
+    
+      .footer-bottom {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      @media screen and (max-width: 1140px) {
+     
+        .footer-content{
+          font-size: 12px;
+          height: 120px;
+        }
+      }
+    
+      @media  screen and (max-width: 890px) {
+
+        h3{
+            font-size: 22px;
+        }
+
+        .footer-content{
+          font-size: 12px;
+          height: 120px;
+        }
+        span{
+          font-size: 25px;
+        }
+      }
+    
+      @media screen and (max-width:576px) {
+        .footer-content{
+          font-size: 10px;
+    
+        }
+        .footer-social .icone{
+          font-size: 20px;
+        }
+    }

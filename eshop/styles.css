@@ -1,0 +1,311 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  header {
+    background-color: #f5f5f5;
+    top: 0;
+    right: 0;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  span{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: black;
+  }
+
+  .logo{
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #614b3a;
+    text-decoration: none;
+    padding: 5px 15px;
+  }
+
+  nav ul li a:hover {
+    color: #6d071a;
+    text-decoration: underline;
+    font-size: 35px;
+  }
+
+  .icone a{
+    padding-right: 20px;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: #ebebeb;
+  }
+  
+  .banner {
+    background-image: url('img/img-homme/trench-homme.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center
+  }
+  
+  .banner-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .banner-content h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  
+  .banner-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #614b3a;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: #6d071a;
+    color: white;
+  }
+
+  .container{
+    height: 800px;
+    margin-top: 20px;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-info{
+    width: 1000px;
+    margin-left: -500px;
+  }
+  .container-info{
+    width: 40%;
+    position: absolute;
+    margin-right: -500px;
+    font-size: 20px;
+    background-color: white;
+    border: 8px solid #614b3a;
+    color: black;
+    text-align: center;
+    z-index: 1000;
+  }
+
+  
+  .container-info button{
+    display:inline-block;
+    background-color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .container-info button a{
+    text-decoration: none;
+    color: #614b3a;
+  }
+
+  .container-info button a:hover{
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  footer {
+    background-color: #614b3a;
+    color: #fff;
+  }
+
+  .footer-content{
+    height: 150px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    }
+
+  h3{
+    text-decoration: underline;
+  }
+
+  .footer-social li{
+    list-style-type: circle;
+  }
+
+  .footer-social ul li a i {
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .footer-propos li a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-bottom {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 1000px){
+    .img-info{
+      width: 800px;
+    }
+
+    .container-info{
+      font-size: 17px;
+    }
+    .footer-content{
+      height: 100px;
+      font-size: 15px;
+    }
+    .img-info{
+      width: 880px;
+      margin-left: -200px;
+    }
+  }
+
+  @media  screen and (max-width: 790px) {
+    nav ul{
+      font-size: 22px;
+    }
+    nav ul li a:hover{
+      font-size: 25px;
+    }
+    .icone{
+      font-size: 13px;
+    }
+    
+    .banner-content h2{
+      font-size: 50px;
+    }
+    .btn{
+      font-size: 25px;
+    }
+    .container-info{
+      font-size: 17px;
+      margin-right: -400px;
+    }
+    .container-info button{
+      font-size: 18px;
+    }
+    .img-info{
+      width: 750px;
+      margin-left: -250px;
+    }
+    .footer-content{
+      height: 90px;
+      font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  span{
+    font-size: 30px;
+  }
+  nav ul{
+    font-size: 20px;
+    padding: 15px;
+  }
+  nav ul li a:hover{
+    font-size: 20px;
+  }
+  .icone{
+    font-size: 10px;
+  }
+  .banner-content p{
+    font-size: 17px;
+  }
+  .banner-content h2{
+    font-size: 40px;
+  }
+  .btn{
+    font-size: 20px;
+  }
+  .container-info{
+    font-size: 15px;
+    margin-right: -350px;
+  }
+  .container-info button{
+    font-size: 15px;
+  }
+  .img-info{
+    width: 750px;
+    margin-left: -200px;
+  }
+  .footer-content{
+    height: 85px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:612px) {
+  span{
+    font-size: 20px;
+  }
+  nav ul{
+    font-size: 15px;
+    padding: 0px;
+  }
+  nav ul li a:hover{
+    font-size: 16px;
+  }
+  .icone{
+    font-size: 8px;
+  }
+  .container-info{
+    font-size: 12px;
+    margin-right: -220px;
+    width: 50%;
+  }
+  .container-info button{
+    font-size: 10px;
+  }
+  .img-info{
+    width: 650px;
+    margin-left: -120px;
+  }
+}
